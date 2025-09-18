@@ -18,14 +18,14 @@ return Integer.toString(number);
 
     int maxInBase10 = (int) (Math.pow(base, 4) - 1);
 
-    System.out.println("maximun 4 digit base 10 number in base " + base + "is" + maxInBase10 + ".");
+    System.out.println("maximun 4 digit base 10 number in base " + base + " is " + maxInBase10 + " . ");
 
-    System.out.println("enter base 10 number in the range 0 to " + "to convert: ");
+    System.out.println("enter base 10 number in the range 0 to " + " 9 convert: ");
     int number = sc.nextInt();
 
     String converted = convertToBase(number, base);
 
-    System.out.println(number + " (base 10) = " + converted + "(base " + base + ")");
+    System.out.println(number + " (base 10) = " + converted + " (base " + base + ") ");
 
     sc.close();
   }
