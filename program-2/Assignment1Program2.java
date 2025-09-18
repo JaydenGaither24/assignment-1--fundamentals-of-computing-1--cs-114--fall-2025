@@ -20,7 +20,7 @@ return Integer.toString(number);
 
     System.out.println("maximun 4 digit base 10 number in base " + base + " is " + maxInBase10 + " . ");
 
-    System.out.println("enter base 10 number in the range 0 to " + " 9 convert: ");
+    System.out.println("enter base 10 number in the range 0 to " + " 67 convert: ");
     int number = sc.nextInt();
 
     String converted = convertToBase(number, base);
